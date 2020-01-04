@@ -1,0 +1,394 @@
+EESchema Schematic File Version 4
+LIBS:USBKeyAdapter-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "USBKeyAdapter"
+Date "2019-12-09"
+Rev "1.0"
+Comp "https://www.kampis-elektroecke.de"
+Comment1 "Author: Daniel Kampert"
+Comment2 ""
+Comment3 ""
+Comment4 "Breadboard adapter for the AT90USBKey"
+$EndDescr
+$Comp
+L power:GND #PWR03
+U 1 1 5DEE37BC
+P 5900 5625
+F 0 "#PWR03" H 5900 5375 50  0001 C CNN
+F 1 "GND" H 5905 5452 50  0000 C CNN
+F 2 "" H 5900 5625 50  0001 C CNN
+F 3 "" H 5900 5625 50  0001 C CNN
+	1    5900 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5DEE40C3
+P 5900 2100
+F 0 "#PWR02" H 5900 1950 50  0001 C CNN
+F 1 "VCC" H 5917 2273 50  0000 C CNN
+F 2 "" H 5900 2100 50  0001 C CNN
+F 3 "" H 5900 2100 50  0001 C CNN
+	1    5900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2500 5650 2300
+Wire Wire Line
+	5650 2300 5750 2300
+Wire Wire Line
+	5750 2300 5750 2500
+Wire Wire Line
+	5750 2300 5850 2300
+Wire Wire Line
+	5850 2300 5850 2500
+Connection ~ 5750 2300
+Wire Wire Line
+	5850 2300 5900 2300
+Wire Wire Line
+	5950 2300 5950 2500
+Connection ~ 5850 2300
+Wire Wire Line
+	5950 2300 6050 2300
+Wire Wire Line
+	6050 2300 6050 2500
+Connection ~ 5950 2300
+Wire Wire Line
+	6050 2300 6150 2300
+Wire Wire Line
+	6150 2300 6150 2500
+Connection ~ 6050 2300
+Wire Wire Line
+	5900 2100 5900 2300
+Connection ~ 5900 2300
+Wire Wire Line
+	5900 2300 5950 2300
+Wire Wire Line
+	5650 5300 5650 5425
+Wire Wire Line
+	5650 5425 5750 5425
+Wire Wire Line
+	5750 5425 5750 5300
+Wire Wire Line
+	5750 5425 5850 5425
+Wire Wire Line
+	5850 5425 5850 5300
+Connection ~ 5750 5425
+Wire Wire Line
+	5850 5425 5900 5425
+Wire Wire Line
+	5950 5425 5950 5300
+Connection ~ 5850 5425
+Wire Wire Line
+	5950 5425 6050 5425
+Wire Wire Line
+	6050 5425 6050 5300
+Connection ~ 5950 5425
+Wire Wire Line
+	6050 5425 6150 5425
+Wire Wire Line
+	6150 5425 6150 5300
+Connection ~ 6050 5425
+Wire Wire Line
+	5900 5425 5900 5625
+Connection ~ 5900 5425
+Wire Wire Line
+	5900 5425 5950 5425
+$Comp
+L power:GND #PWR01
+U 1 1 5DEE78E1
+P 4025 5625
+F 0 "#PWR01" H 4025 5375 50  0001 C CNN
+F 1 "GND" H 4030 5452 50  0000 C CNN
+F 2 "" H 4025 5625 50  0001 C CNN
+F 3 "" H 4025 5625 50  0001 C CNN
+	1    4025 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5DEE8507
+P 7825 2100
+F 0 "#PWR04" H 7825 1950 50  0001 C CNN
+F 1 "VCC" H 7842 2273 50  0000 C CNN
+F 2 "" H 7825 2100 50  0001 C CNN
+F 3 "" H 7825 2100 50  0001 C CNN
+	1    7825 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 2700 5300 2700
+Wire Wire Line
+	3825 2800 5300 2800
+Wire Wire Line
+	3825 2900 5300 2900
+Wire Wire Line
+	5300 3000 3825 3000
+Wire Wire Line
+	3825 3100 5300 3100
+Wire Wire Line
+	5300 3200 3825 3200
+Wire Wire Line
+	3825 3300 5300 3300
+Wire Wire Line
+	5300 3400 3825 3400
+Wire Wire Line
+	3825 3500 5125 3500
+Wire Wire Line
+	5125 3500 5125 3550
+Wire Wire Line
+	5125 3550 5300 3550
+Wire Wire Line
+	5300 3650 5125 3650
+Wire Wire Line
+	5125 3650 5125 3600
+Wire Wire Line
+	5125 3600 3825 3600
+Wire Wire Line
+	3825 3700 5125 3700
+Wire Wire Line
+	5125 3700 5125 3750
+Wire Wire Line
+	5125 3750 5300 3750
+Wire Wire Line
+	5300 3850 5125 3850
+Wire Wire Line
+	5125 3850 5125 3800
+Wire Wire Line
+	5125 3800 3825 3800
+Wire Wire Line
+	3825 3900 5125 3900
+Wire Wire Line
+	5125 3900 5125 3950
+Wire Wire Line
+	5125 3950 5300 3950
+Wire Wire Line
+	3825 4000 5125 4000
+Wire Wire Line
+	5125 4000 5125 4050
+Wire Wire Line
+	5125 4050 5300 4050
+Wire Wire Line
+	5300 4150 5125 4150
+Wire Wire Line
+	5125 4150 5125 4100
+Wire Wire Line
+	5125 4100 3825 4100
+Wire Wire Line
+	3825 4200 5125 4200
+Wire Wire Line
+	5125 4200 5125 4250
+Wire Wire Line
+	5125 4250 5300 4250
+Wire Wire Line
+	3825 4300 5200 4300
+Wire Wire Line
+	5200 4300 5200 4400
+Wire Wire Line
+	5200 4400 5300 4400
+Wire Wire Line
+	5300 4500 5150 4500
+Wire Wire Line
+	5150 4500 5150 4400
+Wire Wire Line
+	5150 4400 3825 4400
+Wire Wire Line
+	5300 4600 5100 4600
+Wire Wire Line
+	5100 4600 5100 4500
+Wire Wire Line
+	5100 4500 3825 4500
+Wire Wire Line
+	3825 4600 5050 4600
+Wire Wire Line
+	5050 4600 5050 4700
+Wire Wire Line
+	5050 4700 5300 4700
+Wire Wire Line
+	5300 4800 5000 4800
+Wire Wire Line
+	5000 4800 5000 4700
+Wire Wire Line
+	5000 4700 3825 4700
+Wire Wire Line
+	3825 4800 4950 4800
+Wire Wire Line
+	4950 4800 4950 4900
+Wire Wire Line
+	4950 4900 5300 4900
+Wire Wire Line
+	4900 5000 4900 4900
+Wire Wire Line
+	4900 4900 3825 4900
+Wire Wire Line
+	4850 5000 4850 5100
+Wire Wire Line
+	4850 5100 5300 5100
+Wire Wire Line
+	4900 5000 5300 5000
+Wire Wire Line
+	3825 5100 4025 5100
+Wire Wire Line
+	4025 5100 4025 5625
+Wire Wire Line
+	3825 5000 4850 5000
+Wire Wire Line
+	6575 4250 6575 4300
+Wire Wire Line
+	6575 4300 8050 4300
+Wire Wire Line
+	6575 4150 6575 4200
+Wire Wire Line
+	6575 4200 8050 4200
+Wire Wire Line
+	6575 4050 6575 4100
+Wire Wire Line
+	6575 4100 8050 4100
+Wire Wire Line
+	6575 3950 6575 4000
+Wire Wire Line
+	6575 4000 8050 4000
+Wire Wire Line
+	6575 3850 6575 3900
+Wire Wire Line
+	6575 3900 8050 3900
+Wire Wire Line
+	8050 3800 6575 3800
+Wire Wire Line
+	6575 3750 6575 3800
+Wire Wire Line
+	6575 3650 6575 3700
+Wire Wire Line
+	6575 3700 8050 3700
+Wire Wire Line
+	6575 3550 6575 3600
+Wire Wire Line
+	6575 3600 8050 3600
+Wire Wire Line
+	6575 3400 6575 3500
+Wire Wire Line
+	6575 3500 8050 3500
+Wire Wire Line
+	6625 3300 6625 3400
+Wire Wire Line
+	6625 3400 8050 3400
+Wire Wire Line
+	6700 3200 6700 3300
+Wire Wire Line
+	6700 3300 8050 3300
+Wire Wire Line
+	6775 3100 6775 3200
+Wire Wire Line
+	6775 3200 8050 3200
+Wire Wire Line
+	6850 3000 6850 3100
+Wire Wire Line
+	6850 3100 8050 3100
+Wire Wire Line
+	6925 2900 6925 3000
+Wire Wire Line
+	6925 3000 8050 3000
+Wire Wire Line
+	7000 2800 7000 2900
+Wire Wire Line
+	7000 2900 8050 2900
+Wire Wire Line
+	7075 2700 7075 2800
+Wire Wire Line
+	7075 2800 8050 2800
+$Comp
+L Connector:Conn_01x25_Male X2
+U 1 1 5DF7CD5E
+P 8250 3900
+F 0 "X2" H 8222 3832 50  0000 R CNN
+F 1 "Conn_01x25_Male" H 8222 3923 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical" H 8250 3900 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf" H 8250 3900 50  0001 C CNN
+F 4 "Harwin" H 8250 3900 50  0001 C CNN "Mfr."
+F 5 "M20-9992545" H 8250 3900 50  0001 C CNN "Mfr. No."
+F 6 "855-M20-9992545 " H 8250 3900 50  0001 C CNN "Mouser"
+	1    8250 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2700 7825 2700
+Wire Wire Line
+	7825 2700 7825 2100
+$Comp
+L Connector:Conn_01x25_Male X1
+U 1 1 5DF8DA18
+P 3625 3900
+F 0 "X1" H 3550 3975 50  0000 C CNN
+F 1 "Conn_01x25_Male" H 3225 3875 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical" H 3625 3900 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf" H 3625 3900 50  0001 C CNN
+F 4 "Harwin" H 3625 3900 50  0001 C CNN "Mfr."
+F 5 "M20-9992545" H 3625 3900 50  0001 C CNN "Mfr. No."
+F 6 "855-M20-9992545 " H 3625 3900 50  0001 C CNN "Mouser"
+	1    3625 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3400 6575 3400
+Wire Wire Line
+	6500 3300 6625 3300
+Wire Wire Line
+	6500 3200 6700 3200
+Wire Wire Line
+	6500 3100 6775 3100
+Wire Wire Line
+	6500 3000 6850 3000
+Wire Wire Line
+	6500 2900 6925 2900
+Wire Wire Line
+	6500 2800 7000 2800
+Wire Wire Line
+	6500 2700 7075 2700
+Wire Wire Line
+	6500 4250 6575 4250
+Wire Wire Line
+	6500 4150 6575 4150
+Wire Wire Line
+	6500 4050 6575 4050
+Wire Wire Line
+	6500 3950 6575 3950
+Wire Wire Line
+	6500 3850 6575 3850
+Wire Wire Line
+	6500 3750 6575 3750
+Wire Wire Line
+	6500 3650 6575 3650
+Wire Wire Line
+	6500 3550 6575 3550
+Wire Wire Line
+	6500 5100 8050 5100
+Wire Wire Line
+	8050 5000 6500 5000
+Wire Wire Line
+	6500 4900 8050 4900
+Wire Wire Line
+	8050 4800 6500 4800
+Wire Wire Line
+	6500 4700 8050 4700
+Wire Wire Line
+	8050 4600 6500 4600
+Wire Wire Line
+	6500 4500 8050 4500
+Wire Wire Line
+	8050 4400 6500 4400
+$Comp
+L DevBoards:AT90USBKey M1
+U 1 1 5DEECE8D
+P 5900 3900
+F 0 "M1" H 5450 5250 50  0000 C CNN
+F 1 "AT90USBKey" H 5900 3900 50  0000 C CNN
+F 2 "Modules:AT90USBKey" H 5550 3900 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/doc7627.pdf" H 5600 5350 50  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
