@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>G:\Dropbox\Git\USBKeyAdapter\hardware\USBKeyAdapter.sch</source>
+    <date>04.01.2020 16:49:49</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USBKeyAdapter</title>
+        <company>https://www.kampis-elektroecke.de</company>
+        <rev>1.0</rev>
+        <date>2019-12-09</date>
+        <source>USBKeyAdapter.sch</source>
+        <comment number="1" value="Author: Daniel Kampert"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Breadboard adapter for the AT90USBKey"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="X2">
+      <value>Conn_01x25_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf</datasheet>
+      <fields>
+        <field name="Mfr.">Harwin</field>
+        <field name="Mfr. No.">M20-9992545</field>
+        <field name="Mouser">855-M20-9992545 </field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x25_Male" description="Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7CD5E</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>Conn_01x25_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf</datasheet>
+      <fields>
+        <field name="Mfr.">Harwin</field>
+        <field name="Mfr. No.">M20-9992545</field>
+        <field name="Mouser">855-M20-9992545 </field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x25_Male" description="Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF8DA18</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>AT90USBKey</value>
+      <footprint>Modules:AT90USBKey</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/doc7627.pdf</datasheet>
+      <libsource lib="DevBoards" part="AT90USBKey" description="AT90USBKey Microcontroller Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEECE8D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x25_Male">
+      <description>Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x25_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DevBoards" part="AT90USBKey">
+      <description>AT90USBKey Microcontroller Module</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/doc7627.pdf</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">AT90USBKey</field>
+        <field name="Footprint">Modules:AT90USBKey</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="A7" type="BiDi"/>
+        <pin num="4" name="A6" type="BiDi"/>
+        <pin num="5" name="A5" type="BiDi"/>
+        <pin num="6" name="A4" type="BiDi"/>
+        <pin num="7" name="A3" type="BiDi"/>
+        <pin num="8" name="A2" type="BiDi"/>
+        <pin num="9" name="A1" type="BiDi"/>
+        <pin num="10" name="A0" type="BiDi"/>
+        <pin num="11" name="Vcc" type="BiDi"/>
+        <pin num="12" name="GND" type="BiDi"/>
+        <pin num="13" name="B7" type="BiDi"/>
+        <pin num="14" name="B6" type="BiDi"/>
+        <pin num="15" name="B5" type="BiDi"/>
+        <pin num="16" name="B4" type="BiDi"/>
+        <pin num="17" name="B3" type="BiDi"/>
+        <pin num="18" name="B2" type="BiDi"/>
+        <pin num="19" name="B1" type="BiDi"/>
+        <pin num="20" name="B0" type="BiDi"/>
+        <pin num="21" name="Vcc" type="BiDi"/>
+        <pin num="22" name="GND" type="BiDi"/>
+        <pin num="23" name="C7" type="BiDi"/>
+        <pin num="24" name="C6" type="BiDi"/>
+        <pin num="25" name="C5" type="BiDi"/>
+        <pin num="26" name="C4" type="BiDi"/>
+        <pin num="27" name="C3" type="BiDi"/>
+        <pin num="28" name="C2" type="BiDi"/>
+        <pin num="29" name="C1" type="BiDi"/>
+        <pin num="30" name="C0" type="BiDi"/>
+        <pin num="31" name="Vcc" type="BiDi"/>
+        <pin num="32" name="GND" type="BiDi"/>
+        <pin num="33" name="D7" type="BiDi"/>
+        <pin num="34" name="D6" type="BiDi"/>
+        <pin num="35" name="D5" type="BiDi"/>
+        <pin num="36" name="D4" type="BiDi"/>
+        <pin num="37" name="D3" type="BiDi"/>
+        <pin num="38" name="D2" type="BiDi"/>
+        <pin num="39" name="D1" type="BiDi"/>
+        <pin num="40" name="D0" type="BiDi"/>
+        <pin num="41" name="Vcc" type="BiDi"/>
+        <pin num="42" name="GND" type="BiDi"/>
+        <pin num="43" name="E7" type="BiDi"/>
+        <pin num="44" name="E6" type="BiDi"/>
+        <pin num="45" name="E5" type="BiDi"/>
+        <pin num="46" name="E4" type="BiDi"/>
+        <pin num="47" name="E3" type="BiDi"/>
+        <pin num="48" name="E2" type="BiDi"/>
+        <pin num="49" name="E1" type="BiDi"/>
+        <pin num="50" name="E0" type="BiDi"/>
+        <pin num="51" name="Vcc" type="BiDi"/>
+        <pin num="52" name="GND" type="BiDi"/>
+        <pin num="53" name="F7" type="BiDi"/>
+        <pin num="54" name="F6" type="BiDi"/>
+        <pin num="55" name="F5" type="BiDi"/>
+        <pin num="56" name="F4" type="BiDi"/>
+        <pin num="57" name="F3" type="BiDi"/>
+        <pin num="58" name="F2" type="BiDi"/>
+        <pin num="59" name="F1" type="BiDi"/>
+        <pin num="60" name="F0" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="DevBoards">
+      <uri>G:\Dropbox\Git\KiCAD/Symbols/DevBoards.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(M1-Pad30)">
+      <node ref="X1" pin="24"/>
+      <node ref="M1" pin="30"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="M1" pin="32"/>
+      <node ref="M1" pin="42"/>
+      <node ref="M1" pin="22"/>
+      <node ref="M1" pin="2"/>
+      <node ref="M1" pin="12"/>
+      <node ref="M1" pin="52"/>
+      <node ref="X1" pin="25"/>
+    </net>
+    <net code="3" name="Net-(M1-Pad60)">
+      <node ref="X2" pin="9"/>
+      <node ref="M1" pin="60"/>
+    </net>
+    <net code="4" name="Net-(M1-Pad28)">
+      <node ref="X1" pin="22"/>
+      <node ref="M1" pin="28"/>
+    </net>
+    <net code="5" name="Net-(M1-Pad26)">
+      <node ref="X1" pin="20"/>
+      <node ref="M1" pin="26"/>
+    </net>
+    <net code="6" name="Net-(M1-Pad25)">
+      <node ref="M1" pin="25"/>
+      <node ref="X1" pin="19"/>
+    </net>
+    <net code="7" name="Net-(M1-Pad24)">
+      <node ref="M1" pin="24"/>
+      <node ref="X1" pin="18"/>
+    </net>
+    <net code="8" name="Net-(M1-Pad40)">
+      <node ref="M1" pin="40"/>
+      <node ref="X2" pin="25"/>
+    </net>
+    <net code="9" name="Net-(M1-Pad45)">
+      <node ref="X2" pin="12"/>
+      <node ref="M1" pin="45"/>
+    </net>
+    <net code="10" name="Net-(M1-Pad56)">
+      <node ref="M1" pin="56"/>
+      <node ref="X2" pin="5"/>
+    </net>
+    <net code="11" name="Net-(M1-Pad39)">
+      <node ref="X2" pin="24"/>
+      <node ref="M1" pin="39"/>
+    </net>
+    <net code="12" name="Net-(M1-Pad53)">
+      <node ref="M1" pin="53"/>
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(M1-Pad54)">
+      <node ref="M1" pin="54"/>
+      <node ref="X2" pin="3"/>
+    </net>
+    <net code="14" name="Net-(M1-Pad50)">
+      <node ref="M1" pin="50"/>
+      <node ref="X2" pin="17"/>
+    </net>
+    <net code="15" name="Net-(M1-Pad49)">
+      <node ref="X2" pin="16"/>
+      <node ref="M1" pin="49"/>
+    </net>
+    <net code="16" name="Net-(M1-Pad48)">
+      <node ref="X2" pin="15"/>
+      <node ref="M1" pin="48"/>
+    </net>
+    <net code="17" name="Net-(M1-Pad47)">
+      <node ref="M1" pin="47"/>
+      <node ref="X2" pin="14"/>
+    </net>
+    <net code="18" name="Net-(M1-Pad46)">
+      <node ref="X2" pin="13"/>
+      <node ref="M1" pin="46"/>
+    </net>
+    <net code="19" name="Net-(M1-Pad44)">
+      <node ref="X2" pin="11"/>
+      <node ref="M1" pin="44"/>
+    </net>
+    <net code="20" name="VCC">
+      <node ref="X2" pin="1"/>
+      <node ref="M1" pin="1"/>
+      <node ref="M1" pin="11"/>
+      <node ref="M1" pin="21"/>
+      <node ref="M1" pin="51"/>
+      <node ref="M1" pin="41"/>
+      <node ref="M1" pin="31"/>
+    </net>
+    <net code="21" name="Net-(M1-Pad19)">
+      <node ref="M1" pin="19"/>
+      <node ref="X1" pin="15"/>
+    </net>
+    <net code="22" name="Net-(M1-Pad18)">
+      <node ref="X1" pin="14"/>
+      <node ref="M1" pin="18"/>
+    </net>
+    <net code="23" name="Net-(M1-Pad16)">
+      <node ref="X1" pin="12"/>
+      <node ref="M1" pin="16"/>
+    </net>
+    <net code="24" name="Net-(M1-Pad14)">
+      <node ref="M1" pin="14"/>
+      <node ref="X1" pin="10"/>
+    </net>
+    <net code="25" name="Net-(M1-Pad59)">
+      <node ref="M1" pin="59"/>
+      <node ref="X2" pin="8"/>
+    </net>
+    <net code="26" name="Net-(M1-Pad58)">
+      <node ref="M1" pin="58"/>
+      <node ref="X2" pin="7"/>
+    </net>
+    <net code="27" name="Net-(M1-Pad57)">
+      <node ref="X2" pin="6"/>
+      <node ref="M1" pin="57"/>
+    </net>
+    <net code="28" name="Net-(M1-Pad55)">
+      <node ref="X2" pin="4"/>
+      <node ref="M1" pin="55"/>
+    </net>
+    <net code="29" name="Net-(M1-Pad4)">
+      <node ref="X1" pin="2"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="30" name="Net-(M1-Pad38)">
+      <node ref="M1" pin="38"/>
+      <node ref="X2" pin="23"/>
+    </net>
+    <net code="31" name="Net-(M1-Pad37)">
+      <node ref="X2" pin="22"/>
+      <node ref="M1" pin="37"/>
+    </net>
+    <net code="32" name="Net-(M1-Pad36)">
+      <node ref="X2" pin="21"/>
+      <node ref="M1" pin="36"/>
+    </net>
+    <net code="33" name="Net-(M1-Pad35)">
+      <node ref="M1" pin="35"/>
+      <node ref="X2" pin="20"/>
+    </net>
+    <net code="34" name="Net-(M1-Pad34)">
+      <node ref="X2" pin="19"/>
+      <node ref="M1" pin="34"/>
+    </net>
+    <net code="35" name="Net-(M1-Pad9)">
+      <node ref="M1" pin="9"/>
+      <node ref="X1" pin="7"/>
+    </net>
+    <net code="36" name="Net-(M1-Pad8)">
+      <node ref="X1" pin="6"/>
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="37" name="Net-(M1-Pad7)">
+      <node ref="X1" pin="5"/>
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="38" name="Net-(M1-Pad6)">
+      <node ref="M1" pin="6"/>
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="39" name="Net-(M1-Pad33)">
+      <node ref="X2" pin="18"/>
+      <node ref="M1" pin="33"/>
+    </net>
+    <net code="40" name="Net-(M1-Pad5)">
+      <node ref="X1" pin="3"/>
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="41" name="Net-(M1-Pad10)">
+      <node ref="X1" pin="8"/>
+      <node ref="M1" pin="10"/>
+    </net>
+    <net code="42" name="Net-(M1-Pad17)">
+      <node ref="X1" pin="13"/>
+      <node ref="M1" pin="17"/>
+    </net>
+    <net code="43" name="Net-(M1-Pad13)">
+      <node ref="X1" pin="9"/>
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="44" name="Net-(M1-Pad43)">
+      <node ref="M1" pin="43"/>
+      <node ref="X2" pin="10"/>
+    </net>
+    <net code="45" name="Net-(M1-Pad20)">
+      <node ref="X1" pin="16"/>
+      <node ref="M1" pin="20"/>
+    </net>
+    <net code="46" name="Net-(M1-Pad23)">
+      <node ref="X1" pin="17"/>
+      <node ref="M1" pin="23"/>
+    </net>
+    <net code="47" name="Net-(M1-Pad27)">
+      <node ref="M1" pin="27"/>
+      <node ref="X1" pin="21"/>
+    </net>
+    <net code="48" name="Net-(M1-Pad3)">
+      <node ref="M1" pin="3"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="49" name="Net-(M1-Pad15)">
+      <node ref="M1" pin="15"/>
+      <node ref="X1" pin="11"/>
+    </net>
+    <net code="50" name="Net-(M1-Pad29)">
+      <node ref="X1" pin="23"/>
+      <node ref="M1" pin="29"/>
+    </net>
+  </nets>
+</export>
