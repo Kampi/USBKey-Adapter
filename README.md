@@ -80,4 +80,4 @@ Please write an e-mail to [DanielKampert@kampis-elektroecke.de](DanielKampert@ka
 
 ## Maintainer
 
-- [Daniel Kampert](DanielKampert@kampis-elektroecke.de)
+- [Daniel Kampert](mailto:DanielKampert@kampis-elektroecke.de)
